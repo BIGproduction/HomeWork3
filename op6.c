@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    char str[] = "";
+    char str[100];
     int width;
 
     if (scanf("%s %d", str, &width) != 2) {
