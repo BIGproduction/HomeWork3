@@ -4,7 +4,7 @@ int main(void) {
     char str[100];
     int width;
 
-    if (scanf("%s %d", str, &width) != 2) {
+    if (scanf("%99s %d", str, &width) != 2) {
         return -1;
     }
 
