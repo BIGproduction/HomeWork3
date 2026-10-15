@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-/* UTF-8
+/*
  * x48 - H
  * x65 - e
  * x6C - l
