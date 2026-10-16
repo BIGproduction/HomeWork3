@@ -4,9 +4,7 @@ int main(void) {
     char str[100];
     int width;
 
-    if (scanf("%99s %d", str, &width) != 2) {
-        return -1;
-    }
+    scanf("%99s %d", &str, &width);
 
     printf("%*s\n", width, str);
     printf("%-*s\n", width + 5, str);
