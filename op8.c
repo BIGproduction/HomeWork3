@@ -9,7 +9,9 @@ int main(void) {
     const char a[] = "Сбой матрицы";
     const wchar_t b[] = L"Сбой матрицы";
 
-    printf("char -> sizeof: %ld bytes, strlen: %ld chars\n wchar -> sizeof: %ld bytes, wslen: %ld chars\n", sizeof(a), strlen(a), sizeof(b), wcslen(b));
+    printf("char  -> sizeof: %zu bytes, strlen: %zu chars\n"
+           "wchar -> sizeof: %zu bytes, wcslen: %zu chars\n",
+           sizeof(a), strlen(a), sizeof(b), wcslen(b));
 
     return 0;
 }
