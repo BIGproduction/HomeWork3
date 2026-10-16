@@ -7,10 +7,7 @@ int main(void) {
 
     wchar_t name[50];
 
-    if (wscanf(L"%ls", &name) != 1) {
-        return -1;
-    }
-
+    wscanf(L"%49ls", &name);
     wprintf(L"Агент {%ls} авторизован в системе\n", name);
 
     return 0;
