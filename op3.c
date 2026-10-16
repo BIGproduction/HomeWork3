@@ -4,9 +4,7 @@
 int main(void) {
     char name[100];
 
-    if (scanf("%s", name) != 1) {
-        return -1;
-    }
+    scanf("%99s", name);
 
     printf("\"%s\"\n", name);
     printf("\"%20s\"\n", name);
